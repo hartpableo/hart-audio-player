@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Hart</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="titleContainer">
+        <h1>Music Player</h1>
+        <small>Brought to you by Hart Pableo <span class="year"></span></small>
+    </div>
+    <div class="musicContainer">
+        <!-- absolute position -->
+        <div class="musicImg">
+            <img src="imgs/Calvin Harris.jpg" alt="music background image" id="musicImg">
+        </div>
+
+        <div class="musicInfo">
+            <h2 class="musicTitle">Calvin Harris</h2>
+        </div>
+        <audio src="#" class="audio"></audio>
+        <!-- song navigation buttons -->
+        <div class="navBtns">
+            <button class="prev">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button class="play">
+                <i class="fas fa-play"></i>
+                <i class="fas fa-pause"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-step-forward"></i>
+            </button>
+        </div>
+        <!-- progress bar -->
+        <div class="progressContainer">
+            <div class="progressBar"></div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
